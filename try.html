@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* styles.css */
+/* styles.css */
+.table-container {
+  width: 100%; /* Gawing full width para sa mobile */
+  zoom: 0.5; /* I-adjust ang zoom level para sa desktop size */
+}
+
+/* Optional: I-override ang size para sa desktop */
+@media (min-width: 769px) {
+  .table-container {
+    width: 1024px; /* Desktop width */
+    margin: 0 auto;
+    zoom: 1; /* I-reset ang zoom level sa desktop size */
+  }
+}
+table, th, td{
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+
+tr{
+    height: 45px;
+    margin: 30px 0;
+}
+p{
+    text-align: center ;
+    margin: 20px;
+}
+
+.header-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.parent {
+    padding: 30px;
+}
+
+    </style>
+    <div class="parent">
+        <div class="table-container">
+            <div>
+             <header>
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi illum cupiditate sit? Id quas obcaecati totam doloremque, veritatis provident voluptatum dolores consequuntur aperiam laboriosam deleniti, placeat, temporibus perferendis perspiciatis repellendus!</p>
+                <div class="header-footer">
+                    <div class="child">
+                        <span>
+                            name: reynaldo bocaling jr
+                        </span>
+                        <span>Section</span>
+                    </div>
+                    <div class="child">
+                        <span>
+                            trainer: reynaldo bocaling jr
+                        </span>
+                        <span>Lorem ipsum dolor sit.</span>
+                    </div>
+                </div>
+             <main>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>days</th>
+                            <th>descriptions</th>
+                            <th>Hours</th>
+                            <th>action</th>
+                            <th>status</th>
+                            <th>about</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>monday</td>
+                            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, obcaecati.</td>
+                            <td>8hrs</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                        </tr>
+                        <tr>
+                              <td>monday</td>
+                            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, obcaecati.</td>
+                            <td>8hrs</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                        </tr>
+                        <tr>
+                              <td>monday</td>
+                            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, obcaecati.</td>
+                            <td>8hrs</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                        </tr>
+                        <tr>
+                              <td>monday</td>
+                            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, obcaecati.</td>
+                            <td>8hrs</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                        </tr>
+                        <tr>
+                              <td>monday</td>
+                            <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, obcaecati.</td>
+                            <td>8hrs</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                            <td>8hr active</td>
+                        </tr>
+                    </tbody>
+                </table>
+             </main>
+             <footer>
+                <div class="header-footer">
+                    <div class="child">
+                        <span>
+                            name: reynaldo bocaling jr
+                        </span>
+                        <span>
+                            name: reynaldo bocaling jr
+                        </span>
+                        <span>Section</span>
+                    </div>
+                    <div class="child">
+                        <span>
+                            trainer: reynaldo bocaling jr
+                        </span>
+                        <span>
+                            trainer: reynaldo bocaling jr
+                        </span>
+                        <span>Lorem ipsum dolor sit.</span>
+                    </div>
+                </div>
+             </footer>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
